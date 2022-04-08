@@ -1,0 +1,6 @@
+fastapi==0.75.0
+pydantic[email]
+python-decouple==3.6
+uvicorn==0.17.6
+fastapi-mail==0.2.0
+httpx
