@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+    backend:
+        image: backend
+        container_name: backend
+        build: ./backend
+        restart: on-failure
+        volumes:
+            - ./backend:/app:rw
+        ports:
+            - 3000:3000
+
+    
